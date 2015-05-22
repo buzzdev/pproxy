@@ -42,5 +42,5 @@ def forward(source, destination):
             destination.shutdown(socket.SHUT_WR)
 
 if __name__ == '__main__':
-    main('proxy.ini', 'error.log')
+    main('pproxy.ini', 'error.log')
 
